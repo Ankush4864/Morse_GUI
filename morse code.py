@@ -16,7 +16,7 @@ morse_code_dict = {
 }
 
 # GPIO setup
-LED_PIN = 10  # Replace with your GPIO pin number
+LED_PIN = 10  
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(LED_PIN, GPIO.OUT)
 
